@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/generateFragment">
+
+    <fragment
+        android:id="@+id/generateFragment"
+        android:name="com.example.randomuser.presentation.generateuser.GenerateFragment"
+        android:label="fragment_generate"
+        tools:layout="@layout/fragment_generate">
+        <action
+            android:id="@+id/action_generateFragment_to_usersListFragment"
+            app:destination="@id/usersListFragment"/>
+        <action
+            android:id="@+id/action_generateFragment_to_detailsFragment"
+            app:destination="@id/detailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/usersListFragment"
+        android:name="com.example.randomuser.presentation.userlist.UsersListFragment"
+        android:label="UsersListFragment" >
+        <action
+            android:id="@+id/action_usersListFragment_to_generateFragment"
+            app:destination="@id/generateFragment" />
+        <action
+            android:id="@+id/action_usersListFragment_to_detailsFragment"
+            app:destination="@id/detailsFragment"/>
+    </fragment>
+    <fragment
+        android:id="@+id/detailsFragment"
+        android:name="com.example.randomuser.presentation.userdetails.DetailsFragment"
+        android:label="fragment_details"
+        tools:layout="@layout/fragment_details" >
+        <action
+            android:id="@+id/action_detailsFragment_to_usersListFragment"
+            app:destination="@id/usersListFragment"/>
+        <argument
+            android:name="userId"
+            app:argType="integer" />
+    </fragment>
+</navigation>

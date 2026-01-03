@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">Random User</string>
+
+    <!-- Generate Fragment -->
+    <string name="fragment_label">Generate user</string>
+    <string name="select_gender_label">Select Gender:</string>
+    <string name="select_nationality_label">Select Nationality:</string>
+    <string name="generate_button_label">Generate</string>
+    <string-array name="genders">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+    <string-array name="nationalities">
+        <item>Australia</item>
+        <item>Brazil</item>
+        <item>Canada</item>
+        <item>Switzerland</item>
+        <item>Germany</item>
+        <item>Denmark</item>
+        <item>Spain</item>
+        <item>Finland</item>
+        <item>France</item>
+        <item>United Kingdom</item>
+        <item>Ireland</item>
+        <item>India</item>
+        <item>Iran</item>
+        <item>Mexico</item>
+        <item>Netherlands</item>
+        <item>Norway</item>
+        <item>New Zealand</item>
+        <item>Serbia</item>
+        <item>Turkey</item>
+        <item>Ukraine</item>
+        <item>United States</item>
+    </string-array>
+
+    <!-- Users List Fragment -->
+    <string name="base_user_name">Gabrielle Gauthier</string>
+    <string name="base_telephone_number">(294)–785–6098</string>
+    <string name="base_coded_nationality">US</string>
+
+    <!-- User Details Fragment -->
+    <string name="greetings">Hi how are you today?\nI\'m</string>
+
+    <string name="first_name_label">First name:</string>
+    <string name="last_name_label">Last name:</string>
+    <string name="gender_label">Gender:</string>
+    <string name="age_label">Age:</string>
+    <string name="dob_label">Date of birth:</string>
+
+    <string name="email_label">Email:</string>
+    <string name="phone_label">Phone:</string>
+
+    <string name="country_label">Country:</string>
+    <string name="state_label">State:</string>
+    <string name="city_label">City:</string>
+    <string name="street_name_label">Street name:</string>
+    <string name="street_number_label">Street number:</string>
+    <string name="postcode_label">Postcode:</string>
+
+    <string name="username_label">Username:</string>
+    <string name="password_label">Password:</string>
+
+
+</resources>

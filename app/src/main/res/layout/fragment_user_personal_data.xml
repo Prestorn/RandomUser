@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="15dp">
+
+    <TableRow
+        android:orientation="horizontal"
+        android:layout_margin="10dp">
+
+        <TextView
+            android:text="@string/first_name_label"
+            style="@style/UserDetailsLabel"/>
+
+        <TextView
+            android:id="@+id/first_name"
+            android:text="@string/base_user_name"
+            style="@style/UserDetailsText"/>
+
+    </TableRow>
+
+    <TableRow
+        android:orientation="horizontal"
+        android:layout_margin="10dp">
+
+        <TextView
+            android:text="@string/last_name_label"
+            style="@style/UserDetailsLabel"/>
+
+        <TextView
+            android:id="@+id/last_name"
+            style="@style/UserDetailsText"/>
+
+    </TableRow>
+
+    <TableRow
+        android:orientation="horizontal"
+        android:layout_margin="10dp">
+
+        <TextView
+            android:text="@string/gender_label"
+            style="@style/UserDetailsLabel"/>
+
+        <TextView
+            android:id="@+id/gender"
+            style="@style/UserDetailsText"/>
+
+    </TableRow>
+
+    <TableRow
+        android:orientation="horizontal"
+        android:layout_margin="10dp">
+
+        <TextView
+            android:text="@string/age_label"
+            style="@style/UserDetailsLabel"/>
+
+        <TextView
+            android:id="@+id/age"
+            style="@style/UserDetailsText"/>
+
+    </TableRow>
+
+    <TableRow
+        android:orientation="horizontal"
+        android:layout_margin="10dp">
+
+        <TextView
+            android:text="@string/dob_label"
+            style="@style/UserDetailsLabel"/>
+
+        <TextView
+            android:id="@+id/dob"
+            style="@style/UserDetailsText"/>
+
+    </TableRow>
+
+</GridLayout>

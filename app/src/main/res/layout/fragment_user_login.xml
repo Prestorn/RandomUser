@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="15dp">
+
+    <TableRow
+        android:orientation="horizontal"
+        android:layout_margin="10dp">
+
+        <TextView
+            android:text="@string/username_label"
+            style="@style/UserDetailsLabel"/>
+
+        <TextView
+            android:id="@+id/username"
+            style="@style/UserDetailsText"/>
+
+    </TableRow>
+
+    <TableRow
+        android:orientation="horizontal"
+        android:layout_margin="10dp">
+
+        <TextView
+            android:text="@string/password_label"
+            style="@style/UserDetailsLabel"/>
+
+        <TextView
+            android:id="@+id/password"
+            style="@style/UserDetailsText"/>
+
+    </TableRow>
+
+</GridLayout>

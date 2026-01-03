@@ -1,0 +1,23 @@
+<resources>
+    <style name="Base.Theme.RandomUser" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:windowBackground">@color/background_color</item>
+        <item name="android:colorBackground">@color/background_color</item>
+    </style>
+
+    <style name="Theme.RandomUser" parent="Base.Theme.RandomUser" />
+
+    <style name="DarkBlueText">
+        <item name="android:fontFamily">roboto</item>
+        <item name="android:textColor">@color/dark_blue</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textFontWeight">600</item>
+    </style>
+
+    <style name="UserDetailsLabel" parent="DarkBlueText">
+        <item name="android:layout_marginEnd">5dp</item>
+    </style>
+
+    <style name="UserDetailsText" parent="DarkBlueText">
+        <item name="android:textFontWeight">400</item>
+    </style>
+</resources>

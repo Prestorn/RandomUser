@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="15dp">
+
+    <TableRow
+        android:orientation="horizontal"
+        android:layout_margin="10dp">
+
+        <TextView
+            android:text="@string/country_label"
+            style="@style/UserDetailsLabel"/>
+
+        <TextView
+            android:id="@+id/country"
+            style="@style/UserDetailsText"/>
+
+    </TableRow>
+
+    <TableRow
+        android:orientation="horizontal"
+        android:layout_margin="10dp">
+
+        <TextView
+            android:text="@string/state_label"
+            style="@style/UserDetailsLabel"/>
+
+        <TextView
+            android:id="@+id/state"
+            style="@style/UserDetailsText"/>
+
+    </TableRow>
+
+    <TableRow
+        android:orientation="horizontal"
+        android:layout_margin="10dp">
+
+        <TextView
+            android:text="@string/city_label"
+            style="@style/UserDetailsLabel"/>
+
+        <TextView
+            android:id="@+id/city"
+            style="@style/UserDetailsText"/>
+
+    </TableRow>
+
+    <TableRow
+        android:orientation="horizontal"
+        android:layout_margin="10dp">
+
+        <TextView
+            android:text="@string/street_name_label"
+            style="@style/UserDetailsLabel"/>
+
+        <TextView
+            android:id="@+id/street_name"
+            style="@style/UserDetailsText"/>
+
+    </TableRow>
+
+    <TableRow
+        android:orientation="horizontal"
+        android:layout_margin="10dp">
+
+        <TextView
+            android:text="@string/street_number_label"
+            style="@style/UserDetailsLabel"/>
+
+        <TextView
+            android:id="@+id/street_number"
+            style="@style/UserDetailsText"/>
+
+    </TableRow>
+
+    <TableRow
+        android:orientation="horizontal"
+        android:layout_margin="10dp">
+
+        <TextView
+            android:text="@string/postcode_label"
+            style="@style/UserDetailsLabel"/>
+
+        <TextView
+            android:id="@+id/postcode"
+            style="@style/UserDetailsText"/>
+
+    </TableRow>
+
+</GridLayout>
